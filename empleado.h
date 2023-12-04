@@ -1,18 +1,18 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#ifndef empleado_H
-#define empleado_H
+#ifndef Empleado_H
+#define Empleado_H
 
-class empleado {
+class Empleado {
 private:
-    string nombre; 
+    //Declaramos nuestros atributos
+    string nombre;
     string ID;
     double salario;
-    double bono;
 
 public:
-    empleado(string nombre = "", string iden = "", double salario = 0);
+    Empleado(string nombre = "", string iden = "", double salario = 0); //Inicializacion de parametros
 
     // Método para establecer el nombre del empleado
     void setNombre(string n);
